@@ -1,4 +1,5 @@
 import Nav from './Components/Nav';
+import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <div>Danya Tellez</div>
         <Nav></Nav>
       </header>
+      <Footer></Footer>
     </div>
   );
 }
