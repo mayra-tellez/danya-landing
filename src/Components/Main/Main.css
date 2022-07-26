@@ -57,6 +57,10 @@
   text-align: center;
 }
 
+.offerings-icons {
+  height: 150px;
+}
+
 /* ----- Contact ----- */
 .main-contact {
   margin-top: 5%;
