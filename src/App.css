@@ -6,3 +6,34 @@
   --tan: #C9AA8D;
   --burgundy: #432229;
 }
+
+/* ----- Custom Scrollbar ----- */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  background-color: var(--tan);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #43578c8d;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-blue);
+}
+
+/* ----- App ----- */
+.App {
+  background-color: #ebcdb1;
+  color: var(--dark-blue);
+  /* background-color: var(--tan); */
+}

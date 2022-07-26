@@ -15,7 +15,7 @@ function Nav() {
           <a>Arbonne</a>
         </li>
         <li>
-          <button>Get in Touch</button>
+          <button className="header-nav-btn">Get in Touch</button>
         </li>
       </ul>
     </nav>

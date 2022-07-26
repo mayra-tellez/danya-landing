@@ -2,6 +2,9 @@
   padding: 0 3%;
   display: flex;
   justify-content: space-between;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .nav-menu {
@@ -13,4 +16,23 @@
 
 .nav-menu > li {
   list-style: none;
+}
+
+.nav-menu > li:hover {
+  cursor: pointer;
+}
+
+.header-nav-btn {
+  padding: 5px 10px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 3px;
+  background: none;
+  color: var(--dark-blue);
+  transition: all .3s;
+}
+
+.header-nav-btn:hover {
+  cursor: pointer;
+  background: var(--dark-blue);
+  color: whitesmoke;
 }
