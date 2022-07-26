@@ -1,19 +1,20 @@
+import "./Footer.css";
 
 function Footer() {
   return (
     <footer>
-      <article>
+      <article className="socials-article">
         Socials
-        <ul>
+        <ul className="socials-list">
           <li>Instagram</li>
           <li>Facebook</li>
-          <li>Link to Arbonne?</li>
+          <li>Arbonne?</li>
         </ul>
       </article>
       <article>
         Footer Menu
         <nav>
-          <ul>
+          <ul className="footer-nav-list">
             <li>
               <a>Purpose</a>
             </li>

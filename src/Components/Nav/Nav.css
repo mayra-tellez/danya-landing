@@ -1,0 +1,16 @@
+.header-nav {
+  padding: 0 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  padding: 0;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu > li {
+  list-style: none;
+}

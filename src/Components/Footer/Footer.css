@@ -1,0 +1,21 @@
+footer {
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials-article {
+  width: 20%;
+}
+
+.socials-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav-list {
+  padding: 0;
+  list-style: none;
+}

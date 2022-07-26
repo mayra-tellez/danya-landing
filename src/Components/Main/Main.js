@@ -1,3 +1,5 @@
+import "./Main.css";
+import profilePic from "../../images/profilePic.png";
 
 function Main() {
   return (
@@ -6,9 +8,9 @@ function Main() {
         <h1>Lorem Ipsum</h1>
       </section>
       <section className="main-intro">
-        <h3>Lorem Ipsum Training</h3>
-        <img src="" alt="photo of Danya" />
-        <h3>Lorem Ipsum Personalized</h3>
+        <h3>One on One <br/> Training</h3>
+        <img src={profilePic} alt="Danya" />
+        <h3>Personalized <br/> Solutions</h3>
       </section>
       <section className="main-offerings">
         <h2>Wellness Your Way / Your Way to Wellness</h2>

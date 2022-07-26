@@ -1,7 +1,10 @@
+import "./Nav.css";
+
 function Nav() {
   return (
-    <nav>
-      <ul>
+    <nav className="header-nav">
+      <p>Danya Tellez</p>
+      <ul className="nav-menu">
         <li>
           <a>Purpose</a>
         </li>
